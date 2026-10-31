@@ -2,16 +2,20 @@
 
 An AI agent written in Go.
 
+The agent uses [Eino](https://github.com/cloudwego/eino) with OpenRouter's
+OpenAI-compatible API.
+
 ## Run
 
 ```bash
-go run ./cmd/agent
+copy .env.example .env
+air
 ```
 
-For development with Air:
+For a direct run, export the variables from `.env` first:
 
 ```bash
-air
+go run ./cmd/agent
 ```
 
 ## Structure
